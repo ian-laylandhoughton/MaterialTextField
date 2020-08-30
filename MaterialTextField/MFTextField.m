@@ -122,7 +122,7 @@ static NSTimeInterval const MFDefaultAnimationDuration = 0.3;
     [self.errorLabel setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
     [self.errorLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
     self.errorLabel.font = self.errorFont;
-    self.errorLabel.textAlignment = NSTextAlignmentLeft;
+    self.errorLabel.textAlignment = NSTextAlignmentCenter;
     self.errorLabel.numberOfLines = 0;
     self.errorLabel.textColor = self.errorColor;
     [self updateErrorLabelText];
