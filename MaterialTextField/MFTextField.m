@@ -125,6 +125,7 @@ static NSTimeInterval const MFDefaultAnimationDuration = 0.3;
     self.errorLabel.textAlignment = NSTextAlignmentCenter;
     self.errorLabel.numberOfLines = 0;
     self.errorLabel.textColor = self.errorColor;
+    self.errorLabel.backgroundColor = [UIColor redColor];
     [self updateErrorLabelText];
     [self addSubview:self.errorLabel];
     [self setupErrorConstraints];
